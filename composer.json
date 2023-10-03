@@ -1,0 +1,30 @@
+{
+  "name": "komin/storage-link-route",
+  "description": "A route for executing storage:link",
+  "autoload": {
+    "psr-4": {
+      "Komin\\StorageLinkRoute\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Komin\\StorageLinkRoute\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Pierre Lafitte",
+      "email": "lingtalfi@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "orchestra/testbench": "^8.12"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Komin\\StorageLinkRoute\\StorageLinkRouteServiceProvider"
+      ]
+    }
+  }
+}
