@@ -1,6 +1,6 @@
 {
-  "name": "komin/storage-link-route",
-  "description": "A route for executing storage:link",
+  "name": "komin-packages/storage-link-route",
+  "description": "A route to create a symlink from 'public/storage' to 'storage/app/public'",
   "autoload": {
     "psr-4": {
       "Komin\\StorageLinkRoute\\": "src/"
